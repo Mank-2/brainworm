@@ -1,1 +1,53 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bg">
+        <img src="/Users/veloso/Desktop/brainworm-main/445827011_432836559476831_2747154709688314996_n.jpg" alt="">
+        <p>hi</p>
+    </div>
+</body>
+<style>
+    #text {
+        font-size: 20rem;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #bg {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        background: rgb(72, 159, 196);
+        width: 50%;
+        height: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 40px;
+        min-height: 500px;
+        min-width: 300px;
+    }
+    #bg > p{
+        font-size: min(20vw, 500px);
+        text-align: center;
+    }
+    img {
+        position: absolute;
+        width: 200px;
+        top: 0%;
+        left: 100%;
+        transform: translateX(-50%) translateY(-50%);
+        border-radius: 10px;
+        box-shadow:  5px 5px 10px  #0000005a;
+    }
+</style>
+</html>
